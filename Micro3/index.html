@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+
+        <div class="part1">
+             <div class="head" >
+                   <div class="name">
+                  <ul><a>ROCK</a>
+                      <a>PAPER</a>
+                     <a>SCISSORS</a>
+                  </ul>
+                </div>
+                      <div class="score-board">
+                          <div class="score">
+                            <p>You score</p>
+                             <p id="user-score">0</p>
+                             
+                          </div>
+                        <div class="score">
+                            <p>Computer score</p>
+                            <p id="comp-score">0</p>
+                            
+                        </div>
+                     </div><!--scoreboard-->
+              </div><!--head-->
+             </div><!--part1-->
+
+            <div class="part2">
+                <div class="choices">
+                    <div class="choice" id="rock">
+                      <img src="../Micro3/img/stone.png" />
+                    </div>
+                    <div class="choice" id="paper">
+                      <img src="../Micro3/img/paper.png">
+                    </div>
+                    <div class="choice" id="scissors">
+                      <img src="../Micro3/img/scissor.png" />
+                    </div>
+                </div>
+              
+            </div><!--choices-->
+         
+    
+    <div class="msg-container">
+      <p id="msg">Play your move</p>
+    </div>
+
+
+    <div class="part3">
+        <button onclick="window.open('index.html','_blank')">Rules</button>
+    </div>
+
+    <script src="logic.js"></script>
+  </body>
+</html>

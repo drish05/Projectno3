@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .container{
+
+    height: 800px;
+    width: 100%;
+    background-color: #89C15E;
+    
+
+   
+}
+
+.part1{
+
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 5px;
+    
+}
+
+.head{
+
+    height:120px;
+    width: 55%;
+    border: solid white 2px;
+    margin-top: 20px;
+    color: white;
+    font-weight: 300;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    
+}
+
+  .name{
+
+    width: 60%;
+    display: flex;
+   
+}
+
+.name a{
+
+    display: block; 
+    
+}
+ 
+  
+  .choice {
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .choice:hover {
+    cursor: pointer;
+    background-color: #081b31;
+  }
+  
+  img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+ 
+  
+  .choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+  }
+  
+  .score-board {
+    height:120px;
+    width: 55%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 300;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-evenly;
+   
+  }
+  
+  .score{
+
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    color: black;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  #paper{
+
+    margin-top: 200px;
+  } 
+
+  .part2 {
+    
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  
+    
+}
+  .msg-container {
+    margin-top: 5rem;
+  }
+  
+  #msg {
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+
+  .box {
+
+    height: 360px;
+    width: 250px;
+    background-color: rgb(8, 39, 8);
+    border: solid white 3px;
+    border-radius: 8px;
+    color: white;
+    margin-right: 20px;
+    
+}
+
+.box p{
+
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+.box li{
+    font-size: 1.08rem;
+    margin-bottom: 3px;
+}
+
+.part3{
+
+    display: flex;
+    justify-content: right;
+}
+  .part3 button{
+
+    height: 25px;
+    width: 70px;
+    background-color: transparent;
+    border: white 2px solid;
+    border-radius: 5px;
+    color: white;
+    font-size: 18PX;
+    margin-top: 20px;
+    margin-right: 20px;
+   
+}
+

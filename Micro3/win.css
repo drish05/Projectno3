@@ -1,0 +1,45 @@
+.winpage{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #89C15E;
+    height: 400px;
+   
+}
+   
+
+.star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #89C15E;
+    height: 150px;
+    margin-bottom: 70px;
+}
+
+h2{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+        color: aliceblue;
+       
+
+}
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: aliceblue;
+    margin-bottom: 100px;
+}
+
+button{
+
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+}
